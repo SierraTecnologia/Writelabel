@@ -16,6 +16,9 @@ class HomeController extends Controller
         $this->profileService = $profileService;
     }
 
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     */
     public function index(Request $request)
     {
         return view('writelabel::profile.home.index');
