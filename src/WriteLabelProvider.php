@@ -51,7 +51,7 @@ use Illuminate\Routing\Router;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
-use JeroenNoten\LaravelAdminLte\Events\BuildingMenu;
+
 
 use Log;
 
